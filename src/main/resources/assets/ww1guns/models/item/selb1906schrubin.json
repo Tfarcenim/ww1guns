@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "ww1guns:items/selb1906schrubin_texture_model",
+		"particle": "ww1guns:items/selb1906schrubin_texture_model"
+	},
+	"elements": [
+		{
+			"name": "barrel",
+			"from": [7, 7, 0],
+			"to": [9, 8, 14],
+			"faces": {
+				"north": {"uv": [4, 2, 6, 3], "texture": "#0"},
+				"east": {"uv": [2, 0, 16, 1], "texture": "#0"},
+				"south": {"uv": [4, 3, 6, 4], "texture": "#0"},
+				"west": {"uv": [2, 1, 16, 2], "texture": "#0"},
+				"up": {"uv": [2, 14, 0, 0], "texture": "#0"},
+				"down": {"uv": [4, 2, 2, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [7, 6, 2],
+			"to": [9, 7, 7],
+			"faces": {
+				"north": {"uv": [6, 2, 8, 3], "texture": "#0"},
+				"east": {"uv": [10, 2, 15, 3], "texture": "#0"},
+				"south": {"uv": [6, 3, 8, 4], "texture": "#0"},
+				"west": {"uv": [10, 3, 15, 4], "texture": "#0"},
+				"up": {"uv": [10, 13, 8, 8], "texture": "#0"},
+				"down": {"uv": [10, 2, 8, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "butt",
+			"from": [7, 6, 11],
+			"to": [9, 7, 17],
+			"faces": {
+				"north": {"uv": [6, 4, 8, 5], "texture": "#0"},
+				"east": {"uv": [8, 7, 14, 8], "texture": "#0"},
+				"south": {"uv": [6, 5, 8, 6], "texture": "#0"},
+				"west": {"uv": [10, 10, 16, 11], "texture": "#0"},
+				"up": {"uv": [6, 10, 4, 4], "texture": "#0"},
+				"down": {"uv": [8, 6, 6, 12], "texture": "#0"}
+			}
+		}
+	]
+}

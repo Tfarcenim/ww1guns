@@ -1,0 +1,61 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "ww1guns:items/springfield1903_textue_model",
+		"particle": "ww1guns:items/springfield1903_textue_model"
+	},
+	"elements": [
+		{
+			"name": "barrel",
+			"from": [7, 7, 0],
+			"to": [9, 8, 12],
+			"faces": {
+				"north": {"uv": [8, 8, 10, 9], "texture": "#0"},
+				"east": {"uv": [2, 0, 14, 1], "texture": "#0"},
+				"south": {"uv": [8, 4, 10, 5], "texture": "#0"},
+				"west": {"uv": [2, 1, 14, 2], "texture": "#0"},
+				"up": {"uv": [2, 12, 0, 0], "texture": "#0"},
+				"down": {"uv": [4, 2, 2, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "butt",
+			"from": [7, 6, 8],
+			"to": [9, 7, 14],
+			"faces": {
+				"north": {"uv": [8, 5, 10, 6], "texture": "#0"},
+				"east": {"uv": [4, 2, 10, 3], "texture": "#0"},
+				"south": {"uv": [8, 6, 10, 7], "texture": "#0"},
+				"west": {"uv": [4, 3, 10, 4], "texture": "#0"},
+				"up": {"uv": [6, 10, 4, 4], "texture": "#0"},
+				"down": {"uv": [8, 6, 6, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "rear sight",
+			"from": [7, 8, 8],
+			"to": [9, 9, 8],
+			"faces": {
+				"north": {"uv": [6, 4, 8, 5], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 1], "texture": "#0"},
+				"south": {"uv": [6, 5, 8, 6], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 1], "texture": "#0"},
+				"up": {"uv": [2, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [2, 0, 0, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "front sight",
+			"from": [7, 8, 0],
+			"to": [9, 9, 0],
+			"faces": {
+				"north": {"uv": [8, 7, 10, 8], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 1], "texture": "#0"},
+				"south": {"uv": [8, 9, 10, 10], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 1], "texture": "#0"},
+				"up": {"uv": [2, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [2, 0, 0, 0], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "ww1guns:items/ruby_texture_model",
+		"particle": "ww1guns:items/ruby_texture_model"
+	},
+	"elements": [
+		{
+			"name": "barrel",
+			"from": [7, 7, 6],
+			"to": [9, 8, 10],
+			"faces": {
+				"north": {"uv": [4, 2, 6, 3], "texture": "#0"},
+				"east": {"uv": [2, 0, 6, 1], "texture": "#0"},
+				"south": {"uv": [4, 3, 6, 4], "texture": "#0"},
+				"west": {"uv": [2, 1, 6, 2], "texture": "#0"},
+				"up": {"uv": [2, 4, 0, 0], "texture": "#0"},
+				"down": {"uv": [4, 2, 2, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [7, 5, 9],
+			"to": [9, 7, 10],
+			"faces": {
+				"north": {"uv": [0, 4, 2, 6], "texture": "#0"},
+				"east": {"uv": [0, 6, 1, 8], "texture": "#0"},
+				"south": {"uv": [4, 4, 6, 6], "texture": "#0"},
+				"west": {"uv": [1, 6, 2, 8], "texture": "#0"},
+				"up": {"uv": [4, 7, 2, 6], "texture": "#0"},
+				"down": {"uv": [6, 6, 4, 7], "texture": "#0"}
+			}
+		}
+	]
+}

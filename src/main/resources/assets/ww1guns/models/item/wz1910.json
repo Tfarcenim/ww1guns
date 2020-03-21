@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "WW1 Mod/wz1910_model_texture",
+		"particle": "WW1 Mod/wz1910_model_texture"
+	},
+	"elements": [
+		{
+			"name": "chamber",
+			"from": [7, 7, 5],
+			"to": [9, 9, 11],
+			"faces": {
+				"north": {"uv": [4, 4, 6, 6], "texture": "#0"},
+				"east": {"uv": [0, 0, 6, 2], "texture": "#0"},
+				"south": {"uv": [4, 6, 6, 8], "texture": "#0"},
+				"west": {"uv": [0, 2, 6, 4], "texture": "#0"},
+				"up": {"uv": [2, 10, 0, 4], "texture": "#0"},
+				"down": {"uv": [4, 4, 2, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 5, 10],
+			"to": [9, 7, 11],
+			"faces": {
+				"north": {"uv": [6, 6, 8, 8], "texture": "#0"},
+				"east": {"uv": [6, 2, 7, 4], "texture": "#0"},
+				"south": {"uv": [6, 0, 8, 2], "texture": "#0"},
+				"west": {"uv": [6, 4, 7, 6], "texture": "#0"},
+				"up": {"uv": [9, 3, 7, 2], "texture": "#0"},
+				"down": {"uv": [9, 3, 7, 4], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4, 0]
+		}
+	}
+}
